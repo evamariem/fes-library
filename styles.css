@@ -221,5 +221,25 @@ FEATURES
 #features {
   border-color: rgba(115, 66, 214, 0.1);
   height: 1000px;
+  padding-top: 8vw;
 }
 
+.books {
+  display: flex;
+  gap: 1rem;
+}
+
+.book {
+  width: 25%;
+  padding: 24px;
+}
+
+.book__img {
+  max-height: 380px;
+}
+
+.book__img--wrapper {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
